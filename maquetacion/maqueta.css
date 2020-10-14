@@ -50,3 +50,66 @@ li{
     justify-content: center;
     align-items: center;
 }
+aside{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.publicidad1{
+    display: flex;
+    width: 350px;
+    height: 130px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}
+.publicidad2{
+    display: flex;
+    width: 350px;
+    height: 130px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.articulo4{
+    display: flex;
+    width: 150px;
+    height: 130px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}
+.articulo5{
+    display: flex;
+    width: 150px;
+    height: 130px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}
+.articulo6{
+    display: flex;
+    width: 150px;
+    height: 130px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin: 20px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ul{
+    list-style: none;
+}

@@ -7,7 +7,6 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
     align-items: center;
 }
 h1{
@@ -22,7 +21,6 @@ li{
 }
 
 .section1{
-    background-color: blue;
     display: flex;
     justify-content: space-evenly;
 }
@@ -33,6 +31,8 @@ li{
     border: solid 2px black;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+
 }
 .articulo2{
     display: flex;
@@ -41,6 +41,8 @@ li{
     border: solid 2px black;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+
 }
 .articulo3{
     display: flex;
@@ -49,12 +51,15 @@ li{
     border: solid 2px black;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+
 }
 aside{
-    background-color: blue;
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+    border-radius: 20px;
+
 }
 .publicidad1{
     display: flex;
@@ -63,6 +68,8 @@ aside{
     border: solid 2px black;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+
 }
 .publicidad2{
     display: flex;
@@ -71,20 +78,23 @@ aside{
     border: solid 2px black;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+
 }
 
 .section2{
-    background-color: blue;
     display: flex;
     justify-content: space-evenly;
+
 }
 .articulo4{
     display: flex;
     width: 150px;
     height: 130px;
-    border: solid 2px black;
+    border : solid 2px black;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 .articulo5{
     display: flex;
@@ -93,6 +103,9 @@ aside{
     border: solid 2px black;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    
+
 }
 .articulo6{
     display: flex;
@@ -103,13 +116,19 @@ aside{
     align-items: center;
 }
 footer{
-    margin: 20px;
+    margin-top: 20px;
     font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-ul{
+.redes{
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    width: 200px;
+    height: 200px;
+ 
+    
 }

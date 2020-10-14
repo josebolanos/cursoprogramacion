@@ -20,3 +20,33 @@ h1{
 li{
     margin: 0 20px;
 }
+
+.section1{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.articulo1{
+    display: flex;
+    width: 150px;
+    height: 130px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}
+.articulo2{
+    display: flex;
+    width: 150px;
+    height: 130px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}
+.articulo3{
+    display: flex;
+    width: 150px;
+    height: 130px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}

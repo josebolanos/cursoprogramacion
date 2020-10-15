@@ -1,0 +1,13 @@
+table{
+    border: solid 2px black;
+    text-align: center;
+}
+
+tr,td{
+    border: solid 2px black;
+    background-color: rgb(115, 255, 0);
+    color: white;
+}
+thead{
+    align-items: center;
+}

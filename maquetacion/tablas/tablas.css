@@ -1,13 +1,25 @@
 table{
     border: solid 2px black;
     text-align: center;
+    margin: auto ;
+    border-spacing: 5px;
+
+}
+th:hover{
+    color: violet;
+    background-color: tomato;
 }
 
-tr,td{
+tr,td ,th{
     border: solid 2px black;
     background-color: rgb(115, 255, 0);
     color: white;
+    padding: 10px;
 }
 thead{
     align-items: center;
+}
+td:hover{
+    color: violet;
+    background-color: tomato;
 }

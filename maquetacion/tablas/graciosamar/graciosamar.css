@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media  (max-width: 600px) {
+    #cabecera{
+        flex-direction: column;
+    }
+
+}
+
+body{
+    margin-bottom: 2000px;
+    font-family: "Roboto";
+}
+#cabecera{
+    height: 50px;
+    background: black;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    top: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+
+}
+#logo{
+    font-size: 1em;
+    font-weight: normal;
+
+}header{
+    flex-basis: 600px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    min-width: 200px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 13px;
+
+
+    
+
+}
+nav li{
+    margin: 0 7px;
+
+}
+nav{
+    flex-basis: 600px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+

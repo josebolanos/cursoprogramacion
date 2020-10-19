@@ -1,0 +1,78 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+    color: white;
+}
+
+div{
+    width: 50vw;
+    height: 50vh;
+    background: black;
+    margin: 20vh auto;
+    background: linear-gradient(to left,   red,violet, green  );
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input{
+    height: 30px;
+}
+
+.campo_formulario{
+    margin-bottom: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 5px solid steelblue;
+    /* background: linear-gradient(to right,   blue,red, green  ); */
+
+
+}
+textarea{
+    resize: none;
+}
+
+.campo_formulario:hover{
+    border-bottom: 5px solid lightblue;
+
+}
+.campo_formulario:focus{
+    border-bottom: 5px solid    lightblue;
+    background: linear-gradie(to top,#444,transparent) ;
+}
+
+.enviar{
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.enviar:hover{
+    background: white;
+    color: black;
+
+}
+
+.enviar:focus{
+    background: white;
+    color: black;
+    font-weight: bold;
+}
